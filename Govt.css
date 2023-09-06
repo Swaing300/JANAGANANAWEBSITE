@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.root{
+background-color:white;
+height: 100%;
+width: 100%;
+}
+.header{
+    height: 4%;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid 1px black;
+}
+.language{
+    margin-top: 2px;
+    background-color: black;
+    border: 1px;
+    border-radius: 100%;
+}
+.language a{
+    color: white;
+    padding: 5px 10px;
+}
+.language:hover{
+    background-color:transparent;
+    border: solid 2px blueviolet;
+    font-size: 17;
+}
+.language a:hover{
+    color: black;
+    font-size: 17;
+}
+.ne a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+    color: black;
+    font-stretch: ultra-condensed;
+    padding: 2px 7px;
+    font-size: 12px;
+}
+.ne a:hover{
+    color: brown;
+    border: 1px;
+    border-radius: 5%;
+}
+a{
+    text-decoration: none;
+    border-radius:3px black;
+
+}
+.ribon{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(37, 162, 221);
+    display: flex;
+    justify-content: space-around;
+}
+.A1{
+width: 20%;
+}
+.A2{
+width: 30%;
+display: flex;
+justify-content: space-around;
+margin-top: 40px;
+margin-bottom: 2px;
+}
+.A1 img{
+padding-left: 20%;   
+height: 70px;
+width: auto;
+}
+.A2 a{
+    color: rgb(29, 29, 47);
+    padding: 5px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.A2 a:hover{
+    color: darkblue;
+    text-decoration: solid underline rgb(146, 139, 97);
+}
+.under{
+    height: 5%;
+    width: 100%;
+    background-color: rgb(218, 189, 178); 
+    display: flex;
+    justify-content: space-between;  
+}
+.under h3{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    font-weight: normal;
+    padding-left: 250px;
+    padding-top: 5px;
+}
+.under p{
+    padding-right: 35%;
+    padding-top: 0.5%;
+    font-size: 17px;
+}
+p{
+    color: rgb(20, 43, 55);
+    font-size: 15px;
+}
+.body{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://i1.wp.com/feminisminindia.com/wp-content/uploads/2017/03/pict18.jpg?fit=1350%2C828&ssl=1")no-repeat;
+    background-size: cover;
+}
+.center{
+    height: 80%;
+    width: 80%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10vh;
+}
+.center_part1{
+    height: 15%;
+    background-color: black;
+    width: 100%;
+    padding-left: 10px;
+}
+.center_part2{
+    height: 100%;
+    background-color: rgb(216, 94, 94);
+    width: 100%;
+    padding-left: 10px;
+}
+.button{
+    margin-right:20px ; 
+    width: 55px;
+    height: 24px;
+    border-radius: 10px;
+    border: 2px solid rgb(83, 54, 54);
+    background-color: rgb(153, 76, 25);
+    color: white;
+}
+.button:hover{
+    background-color: rgb(56, 90, 120);
+    cursor: pointer;
+}
+.footer{
+    height: 70%;
+    width: 100%;
+    display: block;
+    background-color: black;
+}
+h2{
+    font-size: larger;
+    color: white;
+    line-height: 40px;
+}
+.footer1st{
+    height: 70%;
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer1st a{
+    color: rgb(92, 103, 110);
+    height: fit-content;
+    width: fit-content;
+}
+.footer1st a:hover{
+    color: white;
+}
+.A{
+    width: 20%;
+    height: 40%;
+    display: flex;
+    flex-direction: column ;
+}
+.A a{
+    text-decoration: none;
+    font-size: medium;
+}
+.B{
+    width: 20%;
+    height: 40%;
+    display: flex;
+    flex-direction: column ;
+    padding-top: 3%;
+}
+.B a{
+    text-decoration: none;
+    font-size: medium;
+}
+.c{
+    width: 20%;
+    height: 40%;
+    display: flex;
+    flex-direction: column ;
+}
+.c a{
+    text-decoration: none;
+    font-size: medium;
+}
+.d{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+}
+.d a{
+    height: 90px;
+}
+.footer2nd{
+    height: 10%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    padding: 0% 15% 0% 15%;
+}
